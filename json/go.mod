@@ -1,4 +1,4 @@
-module github.com/axpira/gopadapter/json
+module github.com/axpira/goplogadapter/json
 
 go 1.16
 
