@@ -4,7 +4,12 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/axpira/goplogadapter)](https://goreportcard.com/report/github.com/axpira/goplogadapter)
 [![Coverage](http://gocover.io/_badge/github.com/axpira/goplogadapter)](http://gocover.io/github.com/axpira/goplogadapter)
 
-
+<!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
