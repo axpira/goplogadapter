@@ -17,7 +17,9 @@
 
   <p align="center">
     Adapter to use with <a href="https://github.com/axpira/gop">Gop Log</a>
+    <br />
     You must just implement one method to create your own log implementation
+    <br />
     Or choose one of implementations like logrus or json
   </p>
 </div>
