@@ -11,7 +11,7 @@
 <h3 align="center">GOP Log Adapter</h3>
 
   <p align="center">
-    Adapter to use with [gop](https://github.com/axpira/gop)
+    Adapter to use with <a href="https://github.com/axpira/gop">Gop Log</a>
 
     You must just implement one method to create your own log implementation
 
