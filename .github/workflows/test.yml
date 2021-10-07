@@ -25,6 +25,13 @@ jobs:
       uses: actions/setup-go@v2
       with:
         go-version: 1.16
+    - name: Go fmt
+      run:
+        unformatter=$(gofmt -l .)
+        if [ ! -z "$unformatted" ]; then
+          echo This files is not formatted $unformatted
+          exit 1
+        fi
     - name: Go report card
       run: curl -X POST -F "repo=github.com/axpira/goplogadapter" https://goreportcard.com/checks
     - name: Coverage Test
