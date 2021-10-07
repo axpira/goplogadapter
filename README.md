@@ -192,6 +192,7 @@ func main() {
 		Int("int_field", 42).
 		Msg("Hello World"),
 )
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -226,7 +227,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Thiago Ferreira - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Thiago Ferreira - thiagogbferreira@gmail.com
 
 Project Link: [https://github.com/axpira/goplogadapter](https://github.com/axpira/goplogadapter)
 
