@@ -28,7 +28,9 @@ jobs:
     - name: Go report card
       run: curl -X POST -F "repo=github.com/axpira/goplogadapter" https://goreportcard.com/checks
     - name: Coverage Test
-      run: go test -coverprofile=dist/coverage.out ./...
+      run: |
+        mkdir -p dist
+        go test -coverprofile=dist/coverage.out ./...
     - name: Codecov
       uses: codecov/codecov-action@v1
       with:
