@@ -11,14 +11,15 @@
 <h3 align="center">GOP Log Adapter</h3>
 
   <p align="center">
-    Adapter to use with [gop](https://github.com/axpira/gop).
+    Adapter to use with [gop](https://github.com/axpira/gop)
+
     You must just implement one method to create your own log implementation
 
     Or choose one of implementations like logrus or json
     <br />
     <br />
     <a href="https://github.com/axpira/goplogadapter/issues">Report Bug</a>
-    ·
+
     <a href="https://github.com/axpira/goplogadapter/issues">Request Feature</a>
   </p>
 </div>
@@ -62,7 +63,7 @@ This project implements [gop log](https://github.com/axpira/gop) and expose just
 type FormatterFunc func(log.Level, string, error, map[string]interface{})
 ```
 
-This function will be called every time need to send something to log, and you need just tom implements and set as default _Formatter_
+This function will be called every time need to send something to log, and you need just to implements and set as default _Formatter_
 
 In this repository has some sub folder, for each sub folder is one of implementation you can use, like:
 * json: Just convert to json and send to output
@@ -149,7 +150,7 @@ But you can just use one of implementation bellow
 
 To configure anything you want please check at [logrus](https://github.com/sirupsen/logrus).
 For example:
-```
+```go
 import (
 	"os"
 	"github.com/axpira/gop/log"
