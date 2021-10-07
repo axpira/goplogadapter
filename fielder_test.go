@@ -76,7 +76,6 @@ func TestFields(t *testing.T) {
 	gotField.Msgf("Hello %s", "World").(*field).send(log.NoLevel, formatterFunc)
 }
 
-
 func TestFieldUpdate(t *testing.T) {
 	now := time.Now()
 	dur, _ := time.ParseDuration("1d2h3m4s")
