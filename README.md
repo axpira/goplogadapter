@@ -169,7 +169,7 @@ func main() {
 		Int("int_field", 42).
 		Msg("Hello World"),
 )
-
+```
 
 ### Json
 
