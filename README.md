@@ -2,7 +2,8 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/axpira/goplogadapter.svg)](https://pkg.go.dev/github.com/axpira/goplogadapter)
 [![Go Report Card](https://goreportcard.com/badge/github.com/axpira/goplogadapter)](https://goreportcard.com/report/github.com/axpira/goplogadapter)
-[![Coverage](http://gocover.io/_badge/github.com/axpira/goplogadapter)](http://gocover.io/github.com/axpira/goplogadapter)
+[![codecov](https://codecov.io/gh/axpira/goplogadapter/branch/main/graph/badge.svg?token=FF2ZA1I0KX)](https://codecov.io/gh/axpira/goplogadapter)
+![Pipeline](https://github.com/axpira/goplogadapter/actions/workflows/test/badge.svg)
 
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
