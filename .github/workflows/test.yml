@@ -26,8 +26,8 @@ jobs:
       with:
         go-version: 1.16
     - name: Go fmt
-      run:
-        unformatter=$(gofmt -l .)
+      run: |
+        unformatted=$(gofmt -l .)
         if [ ! -z "$unformatted" ]; then
           echo This files is not formatted $unformatted
           exit 1
