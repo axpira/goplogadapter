@@ -11,22 +11,14 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
 <h3 align="center">GOP Log Adapter</h3>
 
   <p align="center">
     Adapter to use with <a href="https://github.com/axpira/gop">Gop Log</a>
-
     You must just implement one method to create your own log implementation
-
     Or choose one of implementations like logrus or json
-    <br />
-    <br />
-    <a href="https://github.com/axpira/goplogadapter/issues">Report Bug</a>
-
-    <a href="https://github.com/axpira/goplogadapter/issues">Request Feature</a>
   </p>
 </div>
 
