@@ -176,7 +176,7 @@ func main() {
 Using default golang json parse to send fields to output
 To configure anything you want please check at [logrus](https://github.com/sirupsen/logrus).
 For example:
-```
+```go
 import (
 	"os"
 	"github.com/axpira/gop/log"
