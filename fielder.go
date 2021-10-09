@@ -52,7 +52,7 @@ func (f *field) Msgf(format string, args ...interface{}) log.FieldBuilder {
 	return f.Msg(fmt.Sprintf(format, args...))
 }
 
-func (f *field) Any(key string, value interface{}) log.FieldBuilder {
+func (f *field) Interface(key string, value interface{}) log.FieldBuilder {
 	f.m[key] = value
 	return f
 }

@@ -49,7 +49,7 @@ func TestFields(t *testing.T) {
 		Bool("key_bool", true).
 		Float32("key_float32", float32(3.2)).
 		Float64("key_float64", float64(6.4)).
-		Any("key_any", "anything").
+		Interface("key_any", "anything").
 		Fields(map[string]interface{}{
 			"key_map_str":   "value",
 			"key_map_int64": int64(-84),
@@ -116,7 +116,7 @@ func TestFieldUpdate(t *testing.T) {
 		Bool("key_bool", true).
 		Float32("key_float32", float32(3.2)).
 		Float64("key_float64", float64(6.4)).
-		Any("key_any", "anything").
+		Interface("key_any", "anything").
 		Fields(map[string]interface{}{
 			"key_map_str":   "value",
 			"key_map_int64": int64(-84),

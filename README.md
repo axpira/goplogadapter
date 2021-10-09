@@ -68,7 +68,18 @@ This function will be called every time need to send something to log, and you n
 
 In this repository has some sub folder, for each sub folder is one of implementation you can use, like:
 * json: Just convert to json and send to output
+```go
+import (
+	_ "github.com/axpira/goplogadapter/json"
+)
+```
+
 * logrus: Use [logrus](https://github.com/sirupsen/logrus) to send log
+```go
+import (
+	_ "github.com/axpira/goplogadapter/logrus"
+)
+```
 
 All this are sub module, so if you want to use you will need to import in your project
 
