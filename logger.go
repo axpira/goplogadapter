@@ -1,9 +1,16 @@
 package goplogadapter
 
 import (
+	"context"
 	"fmt"
 
 	"github.com/axpira/gop/log"
+)
+
+type contextKey string
+
+const (
+	loggerContextKey contextKey = "goplogadapter"
 )
 
 type FormatterFunc func(log.Level, string, error, map[string]interface{})
@@ -175,4 +182,16 @@ func (l logger) Println(args ...interface{}) {
 func (l logger) Write(msg []byte) (int, error) {
 	l.Log(log.InfoLevel, newField().Msg(string(msg)))
 	return 0, nil
+}
+
+func (l logger) ToCtx(ctx context.Context) context.Context {
+	return context.WithValue(ctx, loggerContextKey, l)
+}
+
+func (l logger) FromCtx(ctx context.Context) log.Logger {
+	v := ctx.Value(loggerContextKey)
+	if v == nil {
+		return l
+	}
+	return v.(log.Logger)
 }
